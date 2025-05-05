@@ -1,0 +1,59 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    background: #008CBA;
+    color: white;
+    font-size: 16px;
+}
+
+/* Hover Effect */
+#hoverElement:hover {
+    color: red;
+    font-weight: bold;
+}
+
+/* Accordion */
+.accordion-content {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+/* Image Gallery */
+#gallery {
+    width: 200px;
+    height: auto;
+}
+
+/* Animated Button */
+.animated-btn:hover {
+    animation: bounce 0.5s infinite;
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+/* Real-time Form Feedback */
+input {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid gray;
+}
+
+input:focus {
+    border-color: #008CBA;
+}
